@@ -1,12 +1,15 @@
-import React from 'react'
-import SimpleShop from './ProductListing'
+import React from "react";
+import ProductGallery from "./ProductListing";
 
-const App = () => {
+function App() {
   return (
     <div>
-      <SimpleShop/>
+      <h1 style={{ textAlign: "center", margin: "20px 0" }}>
+        🛍️ E-Commerce Product Gallery
+      </h1>
+      <ProductGallery />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
